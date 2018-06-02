@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@android:color/white"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbarNewsList"
+            layout="@layout/toolbar" />
+
+        <include
+            android:id="@+id/progressBar"
+            layout="@layout/progress_bar" />
+
+        <include
+            android:id="@+id/newsList"
+            layout="@layout/recycler_view" />
+
+        <TextView
+            android:id="@+id/tvNoNews"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/no_news"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabFavourite"
+        style="@style/fabStyle"
+        app:elevation="6dp"
+        app:fabSize="normal" />
+
+
+</android.support.design.widget.CoordinatorLayout>

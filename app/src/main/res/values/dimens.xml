@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_text_size">21sp</dimen>
+    <dimen name="subtext_text_size">17sp</dimen>
+    <dimen name="caption_text_size">13sp</dimen>
+    <dimen name="body_text_size">15sp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>
